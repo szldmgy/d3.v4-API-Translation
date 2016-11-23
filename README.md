@@ -1,14 +1,14 @@
-# D3.js 4.0 API中文手册
+# D3.js 4.x API中文手册
 
 本文档会随官方文档同步更新。
 
-# 说说4.0
+# 说说4.x
 今天（2016-05-14）打开D3的项目地址https://github.com/d3/d3 ，发现描述已经变成了：
 >Bring data to life with SVG, Canvas and HTML
 
 比以前多个了`Canvas`，也就是说D3.js的历史进入了新纪元。这是历经早期`Protovis`只支持`SVG`到后来d3.v3支持`HTML`操作，如今又进入了一个崭新的阶段将支持`Canvas`了。d3.v4的源码也有相当大的调整，最明显的是分成了很多小模块单独开发。模块化开发果然和预想的一样是要为支持`Canvas`做准备，这确实是一件让人热血澎湃的好事。D3留给我们的想象空间还很大。好吧，为了更好地拥抱新技术！本项目将通过对D3 V4官方文档的翻译对d3.v4做个全面深入的了解。本文为保持原汁原味，会采用直译，希望成为帮助大家入门d3.v4的第一手资料。
 
-# 4.0的新功能
+# 4.x的新功能
 
 ## 颜色，插值器，比例尺
 
@@ -97,10 +97,10 @@ D3将强大的**可视化**，**动态交互**和**数据驱动的DOM操作方�
 
 ## 安装
 
-最近的稳定版是 (4.0.0), 可以按照wiki里的 [安装介绍 ](https://github.com/d3/d3/wiki#installing) 安装使用。如果你使用NPM, 可执行`npm install d3`命令。不然的话可以下载[最新版](https://github.com/d3/d3/releases/latest)。 发布包支持AMD, CommonJS, 和 vanilla 环境。自定义编译可以使用 [Rollup](https://github.com/rollup/rollup) 或者其他打包工具。也可以直接从[d3js.org](https://d3js.org)引用:
+最近的稳定版是 (4.x.0), 可以按照wiki里的 [安装介绍 ](https://github.com/d3/d3/wiki#installing) 安装使用。如果你使用NPM, 可执行`npm install d3`命令。不然的话可以下载[最新版](https://github.com/d3/d3/releases/latest)。 发布包支持AMD, CommonJS, 和 vanilla 环境。自定义编译可以使用 [Rollup](https://github.com/rollup/rollup) 或者其他打包工具。也可以直接从[d3js.org](https://d3js.org)引用:
 
 ```html
-<script src="https://d3js.org/d3.v4.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
 ```
 
 非压缩版移除上面的`.min`即可。
